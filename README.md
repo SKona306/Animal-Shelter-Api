@@ -66,7 +66,7 @@ GET{id}/PUT/DELETE:
 
 * Navigate to the `appsettings.json` file and enter: 
 
-![Screenshot](appsettings.PNG)
+![Screenshot](img/appsettings.PNG)
 
 * Run Application:
 1. `cd` to root directory
@@ -80,7 +80,7 @@ GET{id}/PUT/DELETE:
 * SwaggerUI
 * XML Comments: offers ability to increase documentation about each controller path
 
-![Screenshot](SwaggerUI.PNG)
+![Screenshot](img/SwaggerUI.PNG)
 
 ## Future Updates
 
