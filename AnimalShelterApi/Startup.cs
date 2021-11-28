@@ -6,6 +6,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using AnimalShelterApi.Models;
 using System;
+using System.Reflection;
+using System.IO;
 using Microsoft.OpenApi.Models;
 
 namespace AnimalShelterApi
@@ -37,6 +39,9 @@ namespace AnimalShelterApi
                         Url = new Uri("https://skona306.github.io/Shaun-s-Portfolio/")
                     }
                 });
+
+                var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
             });
         }
 
