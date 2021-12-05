@@ -68,7 +68,7 @@ GET{id}/PUT/DELETE:
 
 ![Screenshot](img/appsettings.PNG)
 
-* Run see SwaggerUI:
+* See SwaggerUI (API documentation)
 1. `cd` to root directory
 2. In console enter: `cd AnimalShelterApi`
 4. To run the project in the console enter: `dotnet run`
